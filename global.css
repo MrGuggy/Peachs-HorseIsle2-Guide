@@ -1,0 +1,109 @@
+/* Aaron's CSS file */
+
+body {
+font-family: verdana, arial, sans-serif;
+font-size: 14px;
+color: #041236;
+line-height: 1.5;
+margin: 0px;
+padding: 0px;
+background: pink url(images/background.png); }
+
+h1, h2, h3 {font-family: georgia, garamond, serif; font-weight: normal; }
+
+h1 { font-size 160%; }
+h2 { font-size: 150%;
+color: #041236; }
+h3 { font-size: 120%; }
+h4 { font-size: 110%; } <!--added font sizes that get smaller like this so that different sections of information stand out more-->
+
+
+p, h1, h2, ol, ul { margin-top: 0px; margin-bottom: 10px; }
+
+ol { padding-left:0; margin-left: 30px; }
+
+img { padding: 4px;
+border-width: 1px;
+border-style: solid;
+border-color: #FF1493; }
+
+a {
+color: #FF69B4;
+font-weight: bold;
+text-decoration: none;
+border-bottom: 1px solid #FFB6C1;
+padding-bottom: 1px; }
+
+
+a:visited {color: #a91254; }
+a:hover, a:focus, a:active {background-color: #ffffff; color: #e63482; border-bottom-color: #fff3f8; }
+
+
+div#wrapper {
+width: 728px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+margin-bottom: 10px;
+background-color: #FFF0F5;
+background-repeat: repeat-y;
+background-position: left top;
+background-attachment: scroll;
+border: 4px solid #5e082c; }
+
+article { 
+padding-left: 10px; }
+
+
+
+footer {clear:both;
+font-size: 100%;
+height: 136px;
+background-color: #ffffff;
+color: #c2175e;
+border-top: 2px dotted #FFF0F5; 
+text-align: right; }
+
+footer p 
+{ margin-top: 40px;
+margin-right: 10px; }
+
+address
+{ margin-top: 0px;
+margin-right: 10px; }
+footer a:link { color: #FF69B4; }
+footer a:hover, footer a:focus, footer a:active { background-color: transparent;
+border: none; }
+
+
+nav 
+{ padding-right: 5px;
+text-align: center; }
+
+
+li { display: inline;
+padding: 15px; }
+
+nav a:hover {background-color: white; }
+
+table, th, td { border: 3px solid #8c0f43;
+margin-bottom: 10px; }
+caption { display: none; }
+thead {color: white;
+background-color: #FF69B4;
+text-align: left; }
+tbody {font-family: Georgia, serif;
+font-size: 150%; 
+margin-bottom: 10px; }
+
+
+
+header {
+height: 110px;
+margin-bottom: 20px; }
+
+header, h1, header p {
+text-indent: -9999999px; }
+
+header { background: white url(images/evilhorsebanner.png) no-repeat;}
+footer { background: white url(images/evilhorsefooter.png) no-repeat;} <!--added a banner and foot with matching aesthetics to mark where the info starts ad ends-->
